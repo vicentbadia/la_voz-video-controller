@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{736A9D74-C575-4962-945A-BBB3309A9239}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>InstagramController.Module1</StartupObject>
+    <RootNamespace>InstagramController</RootNamespace>
+    <AssemblyName>Instagram Controller</AssemblyName>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Vicent\Documents\PROJECTES\A3Media\LA VOZ\La Voz Controller\Setups\Setup 1.9 PVW-PGM\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <TargetCulture>es-ES</TargetCulture>
+    <ProductName>La Voz Instagram Controller</ProductName>
+    <PublisherName>Departamento Orad - ATresMedia</PublisherName>
+    <SuiteName>Instagram Controller</SuiteName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.9.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Instagram Controller.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Instagram Controller.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>03FD818750168574B8D46B6E4F8FB874B4C99A9C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ReTalkXMLExample_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.ReTalkXMLLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>obj\Debug\Interop.ReTalkXMLLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlPanelForm.Designer.vb">
+      <DependentUpon>ControlPanelForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanelForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animaciones.Designer.vb">
+      <DependentUpon>Animaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Animaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadImage.Designer.vb">
+      <DependentUpon>LoadImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoadImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectIP.Designer.vb">
+      <DependentUpon>SelectIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenScene.Designer.vb">
+      <DependentUpon>OpenScene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpenScene.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select Input Video.Designer.vb">
+      <DependentUpon>Select Input Video.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Select Input Video.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RellenarExport.Designer.vb">
+      <DependentUpon>RellenarExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RellenarExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlPanelForm.resx">
+      <DependentUpon>ControlPanelForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Animaciones.resx">
+      <DependentUpon>Animaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadImage.resx">
+      <DependentUpon>LoadImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenScene.resx">
+      <DependentUpon>OpenScene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select Input Video.resx">
+      <DependentUpon>Select Input Video.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RellenarExport.resx">
+      <DependentUpon>RellenarExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectIP.resx">
+      <DependentUpon>SelectIP.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowLeft01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowBottom01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rewind02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn2ventanas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn1ventana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATresMedia-logo-transp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATresMedia-logo-transp-175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="favicon32.ico" />
+    <Content Include="favicon48px.ico" />
+    <None Include="Resources\LogoLaVoz150pxNuevo.png" />
+    <None Include="Resources\LogoLaVoz150px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

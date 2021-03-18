@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Instagram Controller Project", "REControllerFiles\Instagram Controller Project.vbproj", "{736A9D74-C575-4962-945A-BBB3309A9239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{736A9D74-C575-4962-945A-BBB3309A9239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736A9D74-C575-4962-945A-BBB3309A9239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736A9D74-C575-4962-945A-BBB3309A9239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736A9D74-C575-4962-945A-BBB3309A9239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
